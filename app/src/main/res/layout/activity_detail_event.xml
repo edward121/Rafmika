@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/detail_event_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/partial_header_height"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/dayTextView1"
+                android:text="Subject"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <TextView
+                android:id="@+id/companyTextView"
+                android:text="Any Company"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/dayTextView2"
+                android:text="Location"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <TextView
+                android:id="@+id/addressTextView"
+                android:text="Address"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/dayTextView3"
+                android:text="Start Time"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <TextView
+                android:id="@+id/startTimeTextView"
+                android:text="00:12:30"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/dayTextView4"
+                android:text="End Time"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <TextView
+                android:id="@+id/endTimeTextView"
+                android:text="01:20:30"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/activityTypeTextView5"
+                android:text="Activity Type"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <TextView
+                android:id="@+id/activityTypeTextView"
+                android:text="Activity Type"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/partial_header_height"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <TextView
+                android:id="@+id/dayTextView5"
+                android:text="Status"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+            <rafmika.hyveminds.com.rafmika.CustomSpinner
+                android:id="@+id/spinner"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_width="match_parent"
+                android:dropDownWidth="200dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="@android:color/darker_gray"
+                android:paddingRight="14dp"
+                android:stateListAnimator="@drawable/spinner_sla"
+                android:popupElevation="3dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
